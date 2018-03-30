@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash-oss:6.2.2
+FROM docker.elastic.co/logstash/logstash-oss:6.2.3
 
 LABEL maintainer Sam Sargeant <sam@sargeant.net.nz>
 LABEL description="Logstash image with useful plugins"
