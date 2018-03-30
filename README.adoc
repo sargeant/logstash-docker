@@ -1,0 +1,21 @@
+= Logstash Docker image
+Sam Sargeant <sam@sargeant.net.nz>
+March 2018
+
+== Description
+
+This Dockerfile creates a custom logstash image based on the offical image from Elastic. The only difference is it includes a number of plugins at build time.
+
+You can find this image from https://hub.docker.com/r/sargeant/logstash/[Docker Hub]
+
+== Plugins
+
+* logstash-codec-sflow
+* logstash-codec-netflow
+* logstash-filter-geoip
+* logstash-filter-cidr
+* logstash-filter-csv
+* logstash-filter-date
+* logstash-filter-dns
+* logstash-filter-dissect
+* logstash-filter-useragent
